@@ -1,0 +1,16 @@
+{
+  "name": "Multiformat Logger",
+  "version": "0.1.0",
+  "slug": "multiformat_logger",
+  "description": "Logs messages in multiple formats.",
+  "startup": "application",
+  "boot": "auto",
+  "options": {},
+  "schema": {},
+  "arch": ["amd64", "aarch64", "armv7"],
+  "image": "local/multiformat_logger",
+  "init": false,
+  "stage": "experimental",
+  "panel_icon": "mdi:script-text",
+  "ingress": false
+}
